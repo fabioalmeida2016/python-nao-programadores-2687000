@@ -11,7 +11,7 @@ estudante['ano_atual'] = int(input('Em que ano estamos? '))
 cursos = input('Quais cursos você já fez no Linkedin Learning? (separe-os com vígula) ')
 
 estudante['cursos'] = cursos.split(', ')
-#estudante['cursos'] = cursos.split(', ')
+
 
 total_anos = estudante['ano_atual'] - estudante['ano_conheceu_linkedin']
 
